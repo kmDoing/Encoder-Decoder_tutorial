@@ -8,3 +8,9 @@ https://www.kaggle.com/datasets/gowrishankarp/newspaper-text-summarization-cnn-d
 
 The Frick_encoder_decoder.ipynb is the development file.
 The folder Enc_dec_prod is the notebook modified to reflect production-level changes.
+
+# Note
+When using your laptop to run this code. It does not release the GPU after training.
+%>nvidia-smi
+To see the running GPU processes and find the PID
+%>kill <PID>
